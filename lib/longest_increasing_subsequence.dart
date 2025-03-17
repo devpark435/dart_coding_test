@@ -34,3 +34,7 @@ int lengthOfLIS(List<int> nums) {
 int max(int a, int b) {
   return a > b ? a : b;
 }
+
+void main() {
+  print(lengthOfLIS([10, 9, 2, 5, 3, 7, 101, 18])); // 예상 출력: 4
+}
