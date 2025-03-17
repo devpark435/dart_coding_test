@@ -32,7 +32,6 @@ List<List<String>> groupAnagrams(List<String> strs) {
 
     // 정렬된 문자열을 키로 사용하여 해시맵에 추가
     if (!anagramMap.containsKey(sortedWord)) {
-      print(sortedWord);
       anagramMap[sortedWord] = [];
     }
     anagramMap[sortedWord]!.add(word);
