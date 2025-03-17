@@ -35,6 +35,6 @@ int minCoins(int n) {
 // 테스트 코드
 void main() {
   print(minCoins(1260)); // 예상 출력: 6
-  print(minCoins(3720)); // 예상 출력: 10
+  print(minCoins(3720)); // 예상 출력: 11
   print(minCoins(160)); // 예상 출력: 3
 }
